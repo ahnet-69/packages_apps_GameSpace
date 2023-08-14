@@ -58,18 +58,6 @@ class SystemSettings @Inject constructor(
             )
         }
 
-    var threeScreenshot
-        get() = Settings.System.getIntForUser(
-            resolver, Settings.System.SWIPE_TO_SCREENSHOT, 0,
-            UserHandle.USER_CURRENT
-        ) == 1
-        set(it) {
-            Settings.System.putIntForUser(
-                resolver, Settings.System.SWIPE_TO_SCREENSHOT,
-                it.toInt(), UserHandle.USER_CURRENT
-            )
-        }
-
     var suppressFullscreenIntent
         get() = Settings.System.getIntForUser(
             resolver,

@@ -25,8 +25,6 @@
     <string name="game_list_title">Daftar permainan</string>
     <string name="game_remove_message">Anda yakin ingin menghapus %1$s dari daftar permainan Anda?</string>
     <string name="app_search_title">Cari</string>
-    <string name="three_screenshot_disabled_summary">Nonaktifkan sementara gerakan usap tiga jari untuk tangkapan layar saat dalam permainan</string>
-    <string name="three_screenshot_disabled_title">Nonaktifkan gerakan usap untuk tangkapan layar</string>
     <string name="chaldea">chaldeaprjkt</string>
     <string name="state_enabled">aktifkan</string>
     <string name="state_disabled">nonaktifkan</string>
