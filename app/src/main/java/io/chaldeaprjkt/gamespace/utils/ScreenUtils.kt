@@ -80,10 +80,10 @@ class ScreenUtils @Inject constructor(private val context: Context) {
         remoteRecording = null
     }
 
+
     fun takeScreenshot(onComplete: ((Uri?) -> Unit)? = null) {
         val handler = Handler(Looper.getMainLooper())
         ScreenshotHelper(context).takeScreenshot(
-            WindowManager.TAKE_SCREENSHOT_FULLSCREEN,
             WindowManager.ScreenshotSource.SCREENSHOT_GLOBAL_ACTIONS, handler
         ) { handler.post { onComplete?.invoke(it) } }
     }
